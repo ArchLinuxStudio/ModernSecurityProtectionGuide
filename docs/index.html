@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>
+      现代隐私保护指南 - Modern Security Protection Guide - Arch Linux Studio
+    </title>
+
+    <meta
+      name="description"
+      content="现代隐私保护指南 -- 主张自己的隐私永远没有错"
+    />
+
+    <!-- GSC -->
+    <meta
+      name="google-site-verification"
+      content="I9AUrsDVI86dZZUEJ2wSX4torsBJsq0bihBPHd_Efx4"
+    />
+
+    <meta name="author" content="ArchLinuxStudio" />
+    <meta
+      name="keywords"
+      content="隐私,安全,隐私保护,Linux,人权,民主运动,工会运动"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://archlinuxstudio.github.io/ModernSecurityProtectionGuide/#/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="现代隐私保护指南" />
+    <meta
+      property="og:description"
+      content="现代隐私保护指南 -- 主张自己的隐私永远没有错"
+    />
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/17615884?s=400&amp;v=4"
+    />
+    <meta property="og:site_name" content="ArchLinuxStudio" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:domain" content="archlinuxstudio.github.io" />
+    <meta
+      property="twitter:url"
+      content="https://archlinuxstudio.github.io/ModernSecurityProtectionGuide/#/"
+    />
+    <meta name="twitter:title" content="现代隐私保护指南" />
+    <meta
+      name="twitter:description"
+      content="现代隐私保护指南 -- 主张自己的隐私永远没有错"
+    />
+    <meta
+      name="twitter:image"
+      content="https://avatars.githubusercontent.com/u/17615884?s=400&amp;v=4"
+    />
+
+    <link rel="shortcut icon" href="./v_ico.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"
+    />
+    <style>
+      .sidebar {
+        padding: 0 0 0 0;
+      }
+
+      .app-name {
+        border-bottom: 4px solid rgb(209, 9, 9);
+        background-color: rgb(0, 0, 0);
+      }
+
+      .app-name-link img {
+        width: 70%;
+      }
+
+      .seo-pic {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./v.jpg" alt="现代隐私保护指南" class="seo-pic" />
+    <div id="app">加载中...</div>
+    <script>
+      window.$docsify = {
+        loadNavbar: true,
+        search: {
+          placeholder: '搜索...',
+        },
+        name: '现代隐私保护指南',
+        loadSidebar: true,
+        auto2top: true,
+        logo: './v.jpg',
+        topMargin: 90,
+        notFoundPage: true,
+        subMaxLevel: 4,
+        themeColor: 'rgb(209, 9, 9)',
+        repo: 'https://github.com/ArchLinuxStudio/ModernSecurityProtectionGuide',
+        formatUpdated: '{YYYY}-{MM}-{DD}',
+        pagination: {
+          previousText: '上一节',
+          nextText: '下一节',
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              let edit_url =
+                'https://github.com/ArchLinuxStudio/ModernSecurityProtectionGuide/blob/master/docs/' +
+                vm.route.file;
+              let editHtml = '[📝 编辑本文](' + edit_url + ')\n';
+
+              let client_id = '57c2a4b3ccd4073dfd8c';
+              let client_secret = 'b21313222e4daad5e5a9b70e0a08f11fb1410406';
+
+              let date_url =
+                'https://api.github.com/repos/ArchLinuxStudio/ModernSecurityProtectionGuide/commits?per_page=1&path=docs/' +
+                vm.config.basePath +
+                encodeURIComponent(vm.route.file);
+
+              fetch(date_url, {
+                headers: {
+                  Authorization: `${client_id}:${client_secret}`,
+                },
+              })
+                .then((response) => {
+                  return response.json();
+                })
+                .then((commits) => {
+                  let modified = commits[0]['commit']['committer'][
+                    'date'
+                  ].slice(0, 10);
+                  document.getElementById('last-modified').textContent =
+                    '更新日期: ' + modified;
+                });
+
+              return (
+                '<span id="last-modified">更新日期: 获取中</span>' +
+                '\n' +
+                html +
+                '\n----\n' +
+                editHtml
+              );
+            });
+
+            hook.mounted(function () {
+              // 添加网站运行时间
+              let dom = Docsify.dom;
+              let runTimeNode = dom.create('div');
+              runTimeNode.className = 'runtime';
+              runTimeNode.style =
+                'color: #8590a6;max-width: 80%;margin: 0 auto 20px;padding: 0 15px 0 15px;';
+              dom.appendTo(dom.find('.content'), runTimeNode);
+            });
+          },
+        ],
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>
+      addBackToTop({
+        diameter: 56,
+        backgroundColor: 'rgb(209, 9, 9)',
+        textColor: '#fff',
+      });
+    </script>
+
+    <script>
+      let client_id = '57c2a4b3ccd4073dfd8c';
+      let client_secret = 'b21313222e4daad5e5a9b70e0a08f11fb1410406';
+
+      let props = {
+        clientID: client_id,
+        clientSecret: client_secret,
+        repo: 'ModernSecurityProtectionGuideComments',
+        owner: 'ArchLinuxStudio',
+        admin: ['ryosukeeeeee'],
+        // facebook-like distraction free mode
+        distractionFreeMode: false,
+        id: decodeURI(location.hash.split('?')[0]),
+        proxy:
+          'https://ifuckgfw.com:7788/https://github.com/login/oauth/access_token',
+      };
+      let gitalk = new Gitalk(props);
+      // 哈希路由切换时 重新加载Gitalk
+      window.addEventListener('hashchange', onHashChange);
+      function onHashChange() {
+        props.id = decodeURI(location.hash.split('?')[0]); //如果不切分，在docsify里面的各个段落都会生成新的评论issue
+      }
+    </script>
+    <script>
+      function change_search_plugin_order() {
+        let search_plugin = document.getElementsByClassName('search')[0];
+        let app_name = document.getElementsByClassName('app-name')[0];
+        search_plugin.parentNode.insertBefore(app_name, search_plugin);
+      }
+      setTimeout(change_search_plugin_order, 1);
+    </script>
+
+    <!-- 添加网站运行时间统计 -->
+    <script>
+      function siteTime() {
+        setTimeout(siteTime, 1000);
+        let seconds = 1000;
+        let minutes = seconds * 60;
+        let hours = minutes * 60;
+        let days = hours * 24;
+        let today = new Date();
+        let todayYear = today.getFullYear();
+        let todayMonth = today.getMonth() + 1;
+        let todayDate = today.getDate();
+        let todayHour = today.getHours();
+        let todayMinute = today.getMinutes();
+        let todaySecond = today.getSeconds();
+
+        let t1 = Date.UTC(2021, 08, 7, 0, 0, 0);
+        let t2 = Date.UTC(
+          todayYear,
+          todayMonth,
+          todayDate,
+          todayHour,
+          todayMinute,
+          todaySecond
+        );
+        let diff = t2 - t1;
+        let diffDays = Math.floor(diff / days);
+        let diffHours = Math.floor((diff - diffDays * days) / hours);
+        let diffMinutes = Math.floor(
+          (diff - diffDays * days - diffHours * hours) / minutes
+        );
+        let diffSeconds = Math.floor(
+          (diff - diffDays * days - diffHours * hours - diffMinutes * minutes) /
+            seconds
+        );
+        Docsify.dom.find('.runtime').innerHTML =
+          'Modern Security Protection Guide 已运行 ' +
+          diffDays +
+          ' 天 ' +
+          diffHours +
+          ' 小时 ' +
+          diffMinutes +
+          ' 分 ' +
+          diffSeconds +
+          ' 秒';
+      }
+      // 先让网页加载完，否则 Docsify.dom.find('.runtime') == null
+      setTimeout(siteTime, 500);
+    </script>
+
+    <style>
+      .gt-ico-text,
+      .gt-btn-text {
+        color: #000000;
+      }
+
+      .gt-container .gt-btn-login {
+        background-color: rgb(209, 9, 9);
+        border: 1px solid rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-btn-public {
+        background-color: rgb(209, 9, 9);
+        border: 1px solid rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-btn-public:hover {
+        background-color: rgb(209, 9, 9);
+        border: 1px solid rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-btn {
+        border: 1px solid rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-btn-loadmore {
+        background-color: rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-btn-preview:hover {
+        border: 1px solid rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-svg svg {
+        fill: rgb(209, 9, 9);
+      }
+
+      .gt-container .gt-comment-username {
+        color: rgb(209, 9, 9);
+      }
+
+      gt-container .gt-popup .gt-action.is--active:before {
+        background: rgb(209, 9, 9);
+      }
+    </style>
+  </body>
+</html>
