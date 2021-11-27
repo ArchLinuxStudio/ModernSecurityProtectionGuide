@@ -4,7 +4,7 @@
 - [不要使用闭源/威权治下的操作系统/设备](proprietary_system.md)
 - [敏感信息自查](sensitive_information.md)
 
-- [Tor](/)
+- [Tor](tor.md)
 - [GnuPG](/)
 - [Linux Firejail](/)
 - [加密邮件](/)
