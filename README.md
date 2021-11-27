@@ -30,7 +30,7 @@
 
 ---
 
-为推动自由软件运动以及唤醒民众对自身权利的认识而撰写的现代隐私保护指南。本指南为民运人士、对威权当局持异议者、工会人士、以及任何意识到隐私对于个人的价值的人群提供一套较为完整的隐私保护方案。本项目大量参考了[Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)以及[iyouport](https://iyouport.substack.com/)的各项报告。
+为推动自由软件运动以及唤醒民众对自身权利的认识而撰写的现代隐私保护指南。本指南为民运人士、对威权当局持异议者、工会人士、以及任何意识到隐私对于个人的价值的人群提供一套较为完整的隐私保护方案。本项目大量参考了[Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)、[编程随想](https://program-think.blogspot.com/)的博客、以及[iyouport](https://iyouport.substack.com/)的各项报告。
 
 ## Star 历史
 

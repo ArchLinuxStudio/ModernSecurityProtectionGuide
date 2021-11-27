@@ -20,3 +20,4 @@ yay -S tor tor-browser
 
 - [编程随想:Tor 的常见问题](https://program-think.medium.com/%E5%A6%82%E4%BD%95%E7%BF%BB%E5%A2%99-%E7%B3%BB%E5%88%97-%E5%85%B3%E4%BA%8E-tor-%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94-daa1115ac300)
 - [Tor community](https://community.torproject.org/)
+- [Tor FAQ](https://support.torproject.org/zh-CN/faq/)

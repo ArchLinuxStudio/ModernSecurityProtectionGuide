@@ -18,7 +18,7 @@
 ---
 
 本指南为民运人士、对威权当局持异议者、工会人士、以及任何意识到隐私对于个人的价值的人群提供一套较为完整的隐私保护方案。本项目大量参考了
-[Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)以及[iyouport](https://iyouport.substack.com/)的各项报告。
+[Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)、[编程随想](https://program-think.blogspot.com/)的博客、以及[iyouport](https://iyouport.substack.com/)的各项报告。
 
 - 本书特点
   - Linux 二次元电报交流群:[ArchLinuxStudio🇨🇦🏳‍⚧🏳‍🌈](https://t.me/FSF_Ministry_of_Truth)。
