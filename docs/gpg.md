@@ -19,6 +19,7 @@ GPG 普遍应用的一个场景就是发送加密邮件。如果你想为一个�
 Ref:
 
 - [Tutanota faq](https://tutanota.com/faq/#0)
+- [Encrypt it all: How Tutanota secures your private key and your data with state-of-the-art encryption.](https://tutanota.com/blog/posts/innovative-encryption/)
 - [简明 GPG 概念](https://zhuanlan.zhihu.com/p/137801979)
 - [GnuPG 密钥生成三步走](https://lab.jinkan.org/2020/04/30/gnupg-in-three-steps/)
 - [2021 年，用更现代的方法使用 PGP 系列](https://ulyc.github.io/2021/01/13/2021%E5%B9%B4-%E7%94%A8%E6%9B%B4%E7%8E%B0%E4%BB%A3%E7%9A%84%E6%96%B9%E6%B3%95%E4%BD%BF%E7%94%A8PGP-%E4%B8%8A/)
