@@ -7,9 +7,6 @@
 - [Tor](tor.md)
 - [GnuPG](/gpg.md)
 - [匿名支付方式](/anonymous_pay.md)
-- [更多内容陆续撰写中...](/)
 - [贡献文档与代码](contribution.md)
 - [关于&致谢](about.md)
-<!-- - [I2P](/)
-- [Linux Firejail](/)
-  -->
+<!-- - [I2P](/)-->
