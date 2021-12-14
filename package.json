@@ -4,7 +4,7 @@
     "name": "ArchLinuxStudio",
     "url": "https://github.com/ArchLinuxStudio"
   },
-  "version": "0.1.0",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "docsify-cli": "^4.4.3"

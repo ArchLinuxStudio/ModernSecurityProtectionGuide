@@ -9,3 +9,6 @@
 - [匿名支付方式](/anonymous_pay.md)
 - [贡献文档与代码](contribution.md)
 - [关于&致谢](about.md)
+
+<!-- OFF-THE-RECORD MESSAGING   https://ssd.eff.org/en/module/how-use-otr-linux    -->
+<!-- SECUREDROP -->
