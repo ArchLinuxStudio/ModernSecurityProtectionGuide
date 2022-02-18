@@ -42,6 +42,7 @@
 - [浏览器指纹](https://wzyboy.im/post/1130.html)
 - [2.5 代指纹追踪技术—跨浏览器指纹识别](https://paper.seebug.org/350/)
 - [Cookieless cookies](https://lucb1e.com/randomprojects/cookielesscookies/) - 一种不使用 cookies 甚至是 Javascript 的方式来追踪用户,它们使用 Etag。网站解释了它是如何工作的，以及如何保护自己。
+- [币安学院 设备指纹：你是如何被暴露的？](https://academy.binance.com/zh/articles/device-fingerprinting-how-exposed-are-you)
 
 对于日常浏览器的使用，我们推荐使用[Brave 浏览器](https://aur.archlinux.org/packages/brave-dev-bin/)。它是目前主流浏览器中默认唯一通过 EFF 随机化指纹验证的浏览器。
 
@@ -90,3 +91,9 @@ IP 泄露和定位泄露往往是成对的。近些年高精度 ip 定位的出�
 ## 学会使用 Linux Firejail
 
 Firejail 可以防止恶意专有软件对本机的间谍行为。即使是开源软件，可能也存在某些未发现的漏洞侵害本机[[1]](https://firejail.wordpress.com/documentation-2/firefox-guide/)。使用[Linux Firejail](https://firejail.wordpress.com/)运行特定程序，可以更好的进行防护。更多信息可查看上述官网，以及[Firejail Arch wiki](https://wiki.archlinux.org/title/firejail)。
+
+---
+
+Ref:
+
+- [wikipedia 中华人民共和国网络审查](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5)
