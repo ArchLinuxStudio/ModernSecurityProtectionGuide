@@ -7,6 +7,7 @@
 - [I2P](/I2P.md)
 - [GnuPG](/gpg.md)
 - [匿名支付方式](/anonymous_pay.md)
+- [危险复盘](/gestapo.md)
 - [贡献文档与代码](contribution.md)
 - [关于&致谢](about.md)
 
