@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "docsify serve docs"
+    "start": "docsify serve docs",
+    "clean": "rm -rf node_modules yarn.lock"
   },
   "license": "CC-BY-NC-ND-4.0"
 }
