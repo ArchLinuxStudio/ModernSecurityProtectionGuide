@@ -14,7 +14,7 @@ yay -S tor tor-browser
 
 如果你在一个民主自由的国家，Tor 一般不需要任何额外设置即可使用。除此之外，你还可以使用 Tor 浏览器的内置网桥方案(如 obfs4、meek。obfs4 是远程网桥、meek 是本地网桥)进一步提升网络访问的隐匿性，用于混淆、规避审查。除此之外，这些内置网桥方案还有另外的附属作用，那就是可以突破互联网封锁(翻墙)。在独裁、威权政府统治的国家中，Tor 网络几乎被完全封锁、阻止访问。使用这些内置网桥方案可以帮助你在网络被封锁和审查的情况下顺利连接到 Tor 网络。
 
-如果你在一个独裁威权的国家，Tor 是被严格封锁的。除了上述的使用内置网桥方案连接至 Tor 网络，还可以使用[全局代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/advanced/transparentProxy)或者[单独代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/fxckGFW)的方式来连接至 Tor。
+如果你在一个独裁威权的国家，Tor 是被严格封锁的。除了上述的使用内置网桥方案连接至 Tor 网络，还可以使用[全局代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/transparentProxy)或者[单独代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/fxckGFW)的方式来连接至 Tor。
 
 > 需要注意的是，使用代理连接 Tor 网络时，需要禁用 TLS 嗅探功能[[1]](https://github.com/v2ray/discussion/issues/49)。
 
