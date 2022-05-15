@@ -16,7 +16,7 @@ yay -S tor tor-browser
 
 如果你在一个独裁威权的国家，Tor 是被严格封锁的。除了上述的使用内置网桥方案连接至 Tor 网络，还可以使用[全局代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/transparentProxy)或者[单独代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/fxckGFW)的方式来连接至 Tor。
 
-> 需要注意的是，使用代理连接 Tor 网络时，需要禁用 TLS 嗅探功能[[1]](https://github.com/v2ray/discussion/issues/49)。
+> 需要注意的是，使用代理连接 Tor 网络时，需要禁用 TLS 嗅探功能[[1]](https://github.com/v2ray/discussion/issues/49)。如果你使用Qv2ray,可在入站设置中关闭嗅探。如果你使用V2raya,则可以在开启转发DNS请求的同时打开fakedns来使用Tor。[[2]](https://github.com/v2rayA/v2rayA/issues/332)[[3]](https://github.com/v2rayA/v2rayA/issues/448)
 
 如果你想要其他应用程序也可以使用 Tor,则将其代理配置中的值设置为 Tor 服务运行的端口号即可。
 
