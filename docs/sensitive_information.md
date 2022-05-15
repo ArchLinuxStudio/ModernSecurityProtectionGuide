@@ -54,7 +54,7 @@
 - 假设你的设备上有一定的分流规则，同时域名策略是 IPIfNonMatch。当访问了一个被禁止的网站，但没有 domain 匹配结果，此时就会进行 DNS 查询。如果此时使用的是 ISP 默认 DNS,则会发生泄露。
 - 假想有一个钓鱼的境外网站，内嵌了许多无缓存的国内的图片网址。那么在访问这个网站时，根据分流规则，访问图片将会进行默认的 DNS 查询。如果此时使用的是 ISP 默认 DNS,则会发生泄露。
 
-为了最大限度的安全，我们推荐在 Linux 工作站上始终开启[全局代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/advanced/transparentProxy)。
+为了最大限度的安全，我们推荐在 Linux 工作站上始终开启[全局代理](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/transparentProxy)。
 
 ---
 
