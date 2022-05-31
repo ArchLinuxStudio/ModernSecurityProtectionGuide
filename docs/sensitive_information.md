@@ -80,7 +80,8 @@ IP 泄露和定位泄露往往是成对的。近些年高精度 ip 定位的出�
 - [如何使用 VeraCrypt 保护 PC 上的敏感文件](https://zhuanlan.zhihu.com/p/332546689)
 - [开源磁盘加密软件 VeraCrypt 教程](https://tlanyan.pp.ua/veracrypt-tutorial/)
 
-对于密码存储，目前较好的方式是使用 Bitwarden 的第三方开源实现[vaultwarden](https://github.com/dani-garcia/vaultwarden)，开源的实现以及自行部署的方式可以保证没有恶意后门的存在，但是你仍需自行确保部署的服务的安全和稳定。除此之外，在如今一个高质量的物理密码本也是一个值得考虑的、更安全的可选选择。
+对于密码存储，目前较好的方式是使用 Bitwarden 的第三方开源实现[vaultwarden](https://github.com/dani-garcia/vaultwarden)，开源的实现以及自行部署的方式可以保证没有恶意后门的存在，但是你仍需自行确保部署的服务的安全和稳定。如果只需要在本地设备上存储密码,也可以使用[KeePassXC](https://keepassxc.org)并将解锁密码数据库所需的密钥文件放到随身携带的可移动存储设备上并加密
+除此之外，在如今一个高质量的物理密码本也是一个值得考虑的、更安全的可选选择。
 
 ## 为什么机场不安全
 
